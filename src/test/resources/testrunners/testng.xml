@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test automtion regression suite" parallel="tests" thread-count="3">
+
+
+	<test name="Amazon Test">
+		<classes>
+			<class name="com.my.tests.AmazonTestWithBM" />
+		</classes>
+	</test>
+
+	<test name="Google Test">
+		<classes>
+			<class name="com.my.tests.GoogleTest" />
+		</classes>
+	</test>
+
+	<test name="Rediff Test">
+		<classes>
+			<class name="com.my.tests.RediffTest" />
+		</classes>
+	</test>
+
+</suite>
